@@ -8,7 +8,9 @@ Without this configuration present, some functionality in the IDE may be limited
 -->
     <config-data xmlns="http://www.netbeans.org/ns/maven-config-data/1">
         <configurations>
+            <configuration id="abuela" profiles=""/>
             <configuration id="scramble" profiles=""/>
+            <configuration id="subsecuente" profiles=""/>
         </configurations>
     </config-data>
 </project-shared-configuration>

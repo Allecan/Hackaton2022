@@ -1,9 +1,6 @@
 package com.alis.hackaton2022;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -17,16 +14,16 @@ public class Scramble {
      */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Igresa la primer cadena: ");
+        System.out.print("Ingresa la primer cadena: ");
         String cadena1 = in.nextLine();
-        System.out.print("Igresa la segunda cadena: ");
+        System.out.print("Ingresa la segunda cadena: ");
         String cadena2 = in.nextLine();
         cadena1 = cadena1.toLowerCase();
         cadena2 = cadena2.toLowerCase();
         if (esScramble(cadena1, cadena2)) {
-            System.out.println("TRUE");
+            System.out.println("SIMONA");
         } else {
-            System.out.println("FALSE");
+            System.out.println("NELSON");
         }
     }
 
@@ -44,7 +41,6 @@ public class Scramble {
                 return true;
             } else {
                 return false;
-
             }
         }
     }
